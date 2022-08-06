@@ -1,3 +1,8 @@
 main {
-
+    transform: rotate(350deg) translateY(-15em) translateX(-8em);
+    width: 3200px;
+    height: 800px;
+    align-content: center;
+    display: flex;
+    padding: 250px;
 }
