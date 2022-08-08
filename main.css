@@ -1,0 +1,55 @@
+a {
+    text-decoration: none;
+    color: grey;
+    font-family: fantasy;
+    padding: 20px;
+    margin: 5em;
+}
+
+li {
+    list-style-type: none;
+    padding: 150px;
+    font-size: 5em;
+    margin-left: 0px;
+
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(22, 22, 22);
+}
+
+h1 {
+    display: inline;
+}
+
+#traF:hover {
+    font-style: italic;
+    color: aqua;
+}
+
+#traS:hover {
+    background-color: aqua;
+    transition: 2s;
+}
+
+#ani:hover {
+    animation-name: chaChaSlide;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes chaChaSlide {
+    0% {
+        transform: translateX(-20em);
+        font-style: italic;
+    }
+
+    99% {
+        font-style: italic;
+    }
+}
