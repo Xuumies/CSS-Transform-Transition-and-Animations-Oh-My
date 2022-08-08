@@ -45,6 +45,11 @@ h1 {
 
 .color:hover {
     color: blueviolet;
+    transition: 2s;
+}
+
+.culur:hover {
+    color: aqua;
 }
 
 @keyframes chaChaSlide {
