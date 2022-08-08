@@ -11,7 +11,7 @@ li {
     padding: 150px;
     font-size: 5em;
     margin-left: 0px;
-
+    color: grey;
 }
 
 ul {
@@ -41,6 +41,10 @@ h1 {
     animation-name: chaChaSlide;
     animation-duration: 2s;
     animation-fill-mode: forwards;
+}
+
+.color:hover {
+    color: blueviolet;
 }
 
 @keyframes chaChaSlide {
